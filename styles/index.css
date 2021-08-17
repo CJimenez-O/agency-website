@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.hero-video{
+    position: relative;
+    overflow: hidden;
+    min-height: 600px;
+    text-align: center;
+}
+
+.hero-title{
+    background-image: url('https://lilikoiagency.com/wp-content/themes/lilikoi/assets/images/logo.svg');
+    background-size: cover;
+    color: #2c1f36;
+    font-size: 1em;
+    padding-top: 24.36788vw;
+    width: 55%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.hero-sub{
+    font-size: 30px;
+    margin-bottom: 80px;
+    color: #2c1f36;
+}
+
+.video{
+    min-height: 500px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    z-index: -1;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: .5;
+}
+
+.pieChart{
+    height: 400px;
+    width: 400px;
+}
+
+.slider{
+    width: 1%;
+}
+
+.slider[type=range]{
+    width: unset !important;
+}
+
